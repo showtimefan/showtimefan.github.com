@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://showtimefan.github.io/sitemap.xml 
