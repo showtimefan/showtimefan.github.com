@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://showtimefan.github.io/atom.xml" rel="self"/>
   <link href="http://showtimefan.github.io/"/>
-  <updated>2014-04-05T09:59:46+08:00</updated>
+  <updated>2014-04-05T10:07:59+08:00</updated>
   <id>http://showtimefan.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -37,6 +37,25 @@
     <updated>2014-03-30T16:27:23+08:00</updated>
     <id>http://showtimefan.github.io/blog/2014/03/30/aaa</id>
     <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Js与ios通讯]]></title>
+    <link href="http://showtimefan.github.io/blog/2013/08/14/js%E4%B8%8Eios%E9%80%9A%E8%AE%AF/"/>
+    <updated>2013-08-14T00:00:00+08:00</updated>
+    <id>http://showtimefan.github.io/blog/2013/08/14/js与ios通讯</id>
+    <content type="html"><![CDATA[<h1>JS跟web交互</h1>
+
+<p><a href="http://blog.csdn.net/cococoolwhj/article/details/7019828">1</a></p>
+
+<p><a href="http://www.devdiv.com/home.php?mod=space&amp;uid=40422&amp;do=blog&amp;id=49338">2</a></p>
+
+<p><a href="http://stackoverflow.com/questions/3742590/nsstring-in-uiwebview/3742635#3742635">3</a></p>
+
+<h1>web URL</h1>
+
+<p><a href="http://kb.cnblogs.com/page/133765/">URL编码与解码</a></p>
 ]]></content>
   </entry>
   
