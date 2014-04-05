@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://showtimefan.github.io/atom.xml" rel="self"/>
   <link href="http://showtimefan.github.io/"/>
-  <updated>2014-04-05T10:07:59+08:00</updated>
+  <updated>2014-04-05T10:44:40+08:00</updated>
   <id>http://showtimefan.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -41,10 +41,10 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Js与ios通讯]]></title>
-    <link href="http://showtimefan.github.io/blog/2013/08/14/js%E4%B8%8Eios%E9%80%9A%E8%AE%AF/"/>
+    <title type="html"><![CDATA[Jsios]]></title>
+    <link href="http://showtimefan.github.io/blog/2013/08/14/jsios/"/>
     <updated>2013-08-14T00:00:00+08:00</updated>
-    <id>http://showtimefan.github.io/blog/2013/08/14/js与ios通讯</id>
+    <id>http://showtimefan.github.io/blog/2013/08/14/jsios</id>
     <content type="html"><![CDATA[<h1>JS跟web交互</h1>
 
 <p><a href="http://blog.csdn.net/cococoolwhj/article/details/7019828">1</a></p>
