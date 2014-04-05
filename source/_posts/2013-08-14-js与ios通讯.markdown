@@ -1,0 +1,9 @@
+#JS跟web交互
+[1](http://blog.csdn.net/cococoolwhj/article/details/7019828)
+
+[2](http://www.devdiv.com/home.php?mod=space&uid=40422&do=blog&id=49338)
+
+[3](http://stackoverflow.com/questions/3742590/nsstring-in-uiwebview/3742635#3742635)
+
+#web URL
+[URL编码与解码](http://kb.cnblogs.com/page/133765/)
