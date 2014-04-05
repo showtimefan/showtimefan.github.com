@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://showtimefan.github.io/atom.xml" rel="self"/>
   <link href="http://showtimefan.github.io/"/>
-  <updated>2014-03-30T16:29:08+08:00</updated>
+  <updated>2014-04-05T09:59:46+08:00</updated>
   <id>http://showtimefan.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,24 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Test]]></title>
+    <link href="http://showtimefan.github.io/blog/2014/04/05/test/"/>
+    <updated>2014-04-05T09:49:49+08:00</updated>
+    <id>http://showtimefan.github.io/blog/2014/04/05/test</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bbb]]></title>
+    <link href="http://showtimefan.github.io/blog/2014/03/30/bbb/"/>
+    <updated>2014-03-30T16:31:46+08:00</updated>
+    <id>http://showtimefan.github.io/blog/2014/03/30/bbb</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Aaa]]></title>
