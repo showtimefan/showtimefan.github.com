@@ -101,33 +101,27 @@
 
 <p>2:打开Cydia,安装OpenSSH</p>
 
-<p>3:运行Mac OS x的终端,输入下面命令进行连接</p>
+<p>3:运行Mac OS x的终端,输入下面命令进行连接
+<code>$ssh root@192.168.2.2</code>(设备的ip地址)</p>
 
-<p><code>$ssh root@192.168.2.2</code>(设备的ip地址)</p>
-
-<p>4:输入<code>alpine</code>默认密码进行登录,如果需要重置密码,则输入下面命令</p>
-
-<p><code>$passwd</code></p>
+<p>4:输入<code>alpine</code>默认密码进行登录,如果需要重置密码,则输入下面命令
+<code>$passwd</code></p>
 
 <h3>三 IOS设备SSH无密码登录</h3>
 
-<p>1:创建用户机子上的一对公钥和私钥</p>
+<p>1:创建用户机子上的一对公钥和私钥
+<code>$ssh-keygen</code></p>
 
-<p><code>$ssh-keygen</code></p>
-
-<p>2:将公钥传到IOS设备上</p>
-
-<p><code>$ ssh-copy-id root@192.168.2.2</code></p>
+<p>2:将公钥传到IOS设备上
+<code>$ ssh-copy-id root@192.168.2.2</code></p>
 
 <p>3:进行登录即可</p>
 
 <h3>三 GitHub网站SSH无密码登录</h3>
 
-<p>1:创建用户机子上的一对公钥和私钥</p>
-
-<p><code>$ssh-keygen</code></p>
-
-<p>2:公钥放入到GitHub网站上</p>
+<p>1:创建用户机子上的一对公钥和私钥
+<code>$ssh-keygen</code>
+2:公钥放入到GitHub网站上</p>
 
 <ul>
 <li>登录github</li>
@@ -138,9 +132,8 @@
 </ul>
 
 
-<p>3:打开终端进行SSH登录</p>
-
-<p><code>$ ssh -Tv git@github.com</code></p>
+<p>3:打开终端进行SSH登录
+<code>$ ssh -Tv git@github.com</code></p>
 
 <h2>参考文章连接</h2>
 
@@ -187,6 +180,8 @@
     <p class="meta">
       
       
+        <a class="basic-alignment right" href="/blog/2014/09/05/test-title/" title="Next Post: 自定义导航栏">自定义导航栏 &raquo;</a>
+      
     </p>
   </footer>
 </article>
@@ -198,6 +193,10 @@
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/09/05/test-title/">自定义导航栏</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2014/04/05/ssh-yuan-li-yi-ji-ying-yong/">SSH 原理以及应用</a>
