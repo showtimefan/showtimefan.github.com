@@ -184,7 +184,7 @@
 </span><span class='line'>  @end</span></code></pre></td></tr></table></div></figure>
 
 
-<p> 方法2:不使用titleView, 直接通过添加自定义的控件:</p>
+<p> 方法2:不使用titleView, 直接通过添加自定义的控件,同时加入重复添加的逻辑:</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -194,13 +194,23 @@
 <span class='line-number'>6</span>
 <span class='line-number'>7</span>
 <span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>@implementation NGViewController
 </span><span class='line'>- (void)viewDidLoad {
 </span><span class='line'>    [super viewDidLoad];  
 </span><span class='line'>    
-</span><span class='line'>    _leftLabel = [[UILabel alloc] initWithFrame:CGRectMake(56, 0, 200, 44)];
-</span><span class='line'>    _leftLabel.textColor = [UIColor whiteColor];
-</span><span class='line'>    [self.navigationController.navigationBar addSubview:_leftLabel];
+</span><span class='line'>    _leftLabel = (UILabel *)[self.navigationController.navigationBar viewWithTag:1000];
+</span><span class='line'>    if (_leftLabel == nil) {
+</span><span class='line'>        _leftLabel = [[UILabel alloc] initWithFrame:CGRectMake(56, 0, 200, 44)];
+</span><span class='line'>        _leftLabel.tag = 1000;
+</span><span class='line'>        _leftLabel.backgroundColor = [UIColor clearColor];
+</span><span class='line'>        _leftLabel.textColor = [UIColor whiteColor];
+</span><span class='line'>        [self.navigationController.navigationBar addSubview:_leftLabel];
+</span><span class='line'>    }
 </span><span class='line'> @end</span></code></pre></td></tr></table></div></figure>
 
 
